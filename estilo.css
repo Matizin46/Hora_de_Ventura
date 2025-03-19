@@ -133,9 +133,10 @@ table {
 }
 
 .produto{
-    width: 350px;
-    border: 1px solid rgba(0,0,0, 13%);
+    width: 300px;
+    border: 2px solid rgba(0,0,0, 13%);
     margin-bottom: 200px;
+    padding: 20px;
 }
 
 .titulo-produto{
@@ -148,6 +149,7 @@ table {
 }
  .aventura{
     display: flex;
+    justify-content: space-between;
  }
 
  .onde{
