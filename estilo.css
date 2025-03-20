@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -78,7 +82,8 @@ table {
 }
 
 .link-menu{
-    font-size: 24px;
+    font-family: "Poppins";
+    font-size: 20px;
     line-height: 120px;
     color: #FFFFFF;
     font-weight: normal;
@@ -88,7 +93,8 @@ table {
 }
 
 .titulo{
-    font-size: 145px;
+    font-family: "Poppins";
+    font-size: 130px;
     color: #FFFFFF;
     text-align: center;
     padding-top: 30px;
@@ -96,18 +102,21 @@ table {
 }
 
 .texto{
-    word-wrap: break-word;
-    width: 450px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    width: 800px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 25px;
-    margin-left: 635px;
-    font-size: 20px;
+    font-size: 26px;
     opacity: 0.7;
+    margin: 0 auto;  
     
 }
 
 .botao{
+    font-family: "Poppins";
     background-color: #00B43D;
     color: white;
     padding: 10px 60px;
@@ -124,6 +133,7 @@ table {
 }
 
 .pergunta{
+    font-family: "Poppins";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,30 +142,97 @@ table {
     font-size: 50px;
 }
 
+.aventura{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+ }
+
 .produto{
-    width: 300px;
+    width: 275px;
     border: 2px solid rgba(0,0,0, 13%);
-    margin-bottom: 200px;
+    margin-bottom: 1000px;
     padding: 20px;
+    background-color: #585858;
+    
 }
 
+
+.descricao{
+    font-family: "Poppins";
+    width: 200px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+
+}
+
+
 .titulo-produto{
+    font-family: "Poppins";
+    color: white;
     margin-top: 13px;
     margin-bottom: 13px;
     margin-left: 16px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 500;
     line-height: 23px;
 }
- .aventura{
-    display: flex;
-    justify-content: space-between;
- }
 
  .onde{
+    font-family: "Poppins";
     display: flex;
     justify-content: center; 
     align-items: center; 
     height: 200px;
     font-size: 40px;
+    color: #FFFFFF;
+    
  }
+
+.botao-ler{
+    font-family: "Poppins";
+    display: block;
+    width: 65px;
+    height: 15px;
+    color: white;
+    background-color: #4E4E4E;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 13px;
+
+}
+ 
+.sobre{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: start; 
+    align-items: center; 
+    height: 200px;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.texto2{
+    font-family: "Poppins";
+    width: 1385px;
+    display: flex;
+    justify-content: start; 
+    align-items: center; 
+    height: 90px;
+    font-size: 37px;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 200px;
+    opacity: 0.8;
+
+}
+
+
